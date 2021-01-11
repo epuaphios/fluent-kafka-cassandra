@@ -6,6 +6,7 @@
 
 kafka-console-producer --broker-list localhost:9092 --topic user-timeline < samplerecords.json
 
+https://hub.docker.com/r/oggn/fluentd-kafka-to-cassandra
 
 apt update
 apt install git
